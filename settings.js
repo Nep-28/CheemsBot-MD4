@@ -73,10 +73,10 @@ global.packname = "Nep Botz Stickers\n\n\n\n\n\n\n\n\n©Nepofficial " //ur stick
 global.author = "Nep" //ur sticker watermark author
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./XeonMedia/theme/new.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/new.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/new.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/new.jpg") //ur thumb pic
 
 //damtabase
 global.premium = ['94702476028'] //ur premium numbers
