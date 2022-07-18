@@ -8054,15 +8054,6 @@ reply("Link error!")
 }
 }
 break
-	case 'neoyta': {
-                let { yta } = require('./lib/nepyt')
-		let urls = quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
-                let quality = args[1] ? args[1] : '128kbps'
-                let media = await yta(urls[text - 1], quality)
-                if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
-                XeonBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
-            }
-            break
 	case 'music': case 'play': case 'yt': case 'ytplay': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
@@ -8141,6 +8132,15 @@ reply("Link error!")
 }
 }
 break
+case 'ytmpr': case 'getvi': case 'ytvido': {
+                let { ytv } = require('./lib/y2mate')
+                if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`)
+                let quality = args[1] ? args[1] : '360p'
+                let media = await ytv(text, quality)
+                if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
+                GojoMdNx.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `┏━✪ 🧚‍♀️Qᴜᴇᴇɴ ᴀʟᴇxɪᴀ yᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ🧚‍♀️ ✪━\n╠✎🧚‍♀️ Title : ${media.title}\n╠✎🧚‍♀️ File Size : ${media.filesizeF}\n╠✎🧚‍♀️ Url : ${isUrl(text)}\n╠✎🧚‍♀️ Ext : MP3\n╚═✎🧚‍♀️ Resolution : ${args[1] || '360p'}` }, { quoted: m })
+            }
+            break
 case 'ytvd': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
