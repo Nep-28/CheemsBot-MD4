@@ -8055,7 +8055,7 @@ reply("Link error!")
 }
 break
 	case 'neoyta': {
-                let { yta } = require('./lib/y2mate')
+                let { yta } = require('./lib/nepyt')
 		let urls = quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(urls[text - 1], quality)
