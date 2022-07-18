@@ -8025,13 +8025,12 @@ textyt = `*| YOUTUBE DOWNLOADER |*
 
 ${global.themeemoji} Title : ${res.title}
 ${global.themeemoji} Size : ${res.size}
-${global.themeemoji} Quality : ${res.quality}
 
-_Select video or audio and wait a while_`
+_Select quality and wait a while_`
 let buttons = [
 {buttonId: `ytvd ${res.link} 360p`, buttonText: {displayText: '360P'}, type: 1},
 {buttonId: `ytvd ${res.link} 480p`, buttonText: {displayText: '480P'}, type: 1},
-{buttonId: `ytad ${res.mp3} 720p`, buttonText: {displayText: '720P'}, type: 1}
+{buttonId: `ytvd ${res.link} 720p`, buttonText: {displayText: '720P'}, type: 1}
 ]
 let buttonMessage = {
 image: {url:res.thumb},
@@ -8149,7 +8148,7 @@ break
 case 'ytad': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-XeonBotInc.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
+XeonBotInc.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp3", ptt:true, contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:`${global.botname}`,
 thumbnail: log0,
