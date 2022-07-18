@@ -8015,6 +8015,46 @@ case 'ttaud':{
     XeonBotInc.sendMessage(from, { audio: { url: xeonytiktokaudio }, mimetype: 'audio/mp4' }, { quoted: m })
    }
  break
+	case 'ytvdd': {
+   if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+if (!args[0]) return reply(mess.linkm)
+try {
+hx.youtube(args[0]).then(async(res) => {
+textyt = `*| YOUTUBE DOWNLOADER |*
+
+${global.themeemoji} Title : ${res.title}
+${global.themeemoji} Size : ${res.size}
+${global.themeemoji} Quality : ${res.quality}
+
+_Select video or audio and wait a while_`
+let buttons = [
+{buttonId: `ytvd ${res.link} 360p`, buttonText: {displayText: '360P'}, type: 1},
+{buttonId: `ytvd ${res.link} 480p`, buttonText: {displayText: '480P'}, type: 1},
+{buttonId: `ytad ${res.mp3} 720p`, buttonText: {displayText: '720P'}, type: 1}
+]
+let buttonMessage = {
+image: {url:res.thumb},
+caption: textyt,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title: res.title,
+body: `${global.ownername}`,
+thumbnail: {url:res.thumb},
+mediaType:3,
+mediaUrl: args[0],
+sourceUrl: args[0]
+}}
+}
+XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
+}).catch(_ => _)
+} catch {
+reply("Link error!")
+}
+}
+break
 	case 'music': case 'play': case 'yt': case 'ytplay': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
@@ -8865,7 +8905,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										{
 										"title": "Maker Menu 🌈",
 										"description": "Displays The List Of Logo Making Features",
-										"rowId": `${prefix}indomenu`
+										"rowId": `${prefix}makermenu`
 									},
 									{
 										"title": "Sound Menu 🎵",
@@ -8880,7 +8920,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 									{
 										"title": "Sticker Menu 🃏",
 										"description": "Displays The List Of Sticker Features",
-										"rowId": `${prefix}indomenu`
+										"rowId": `${prefix}stickermenu`
 									},
 									{
 										"title": "Search Menu 🔎",
