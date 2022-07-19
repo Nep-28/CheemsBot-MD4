@@ -3138,7 +3138,7 @@ await XeonBotInc.updateProfilePicture(botNumber, { url: media }).catch((err) => 
 replay(mess.success)
 }
 break
-            case 'linkgroup': case 'linkgc': case 'gclink': case 'grouplink': {
+            case 'linkgroup': case 'invite': case 'gclink': case 'grouplink': {
             	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
                 if (!m.isGroup) return replay(`${mess.group}`)
@@ -3160,7 +3160,7 @@ if (isBanChat) return reply(mess.banChat)
                 }
             }
             break
-case 'grupsetting':
+case 'settings':
             case 'groupsetting':{
             	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
@@ -9056,8 +9056,8 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}unblock [tag/number]
 ╠ ${prefix}coowner [add/del]
 ╠═══════✪「 GROUP 」	        
-╠${prefix}grousetting
-╠${prefix}grouplink
+╠${prefix}settings 
+╠${prefix}invite
 ╠${prefix}ephemeral [option]
 ╠${prefix}setgcpp [image]
 ╠${prefix}setname [text]
@@ -9784,8 +9784,8 @@ case 'groupmenu':
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Group Menu')
 await XeonBotInc.send5ButImg(from, `╔═══════✪「 GROUP 」	
-╠${prefix}groupsetting
-╠${prefix}grouplink
+╠${prefix}settings 
+╠${prefix}invite
 ╠${prefix}ephemeral [option]
 ╠${prefix}setgcpp [image]
 ╠${prefix}setname [text]
