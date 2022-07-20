@@ -8887,7 +8887,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "╚══❖𝙊𝙩𝙝𝙚𝙧❖══╝",
-										"description": "Displays The List Of Other Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐎𝐭𝐡𝐞𝐫 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}othermenu`
 									}
 								]
@@ -8897,107 +8897,107 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "╚══❖𝘼𝙡𝙡 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of All The Features!",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐀𝐥𝐥 𝐓𝐡𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}allmenu`
 									},
 									{
 										"title": "╚══❖𝙊𝙬𝙣𝙚𝙧 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Owner Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐎𝐰𝐧𝐞𝐫 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
 										"title": "╚══❖𝙂𝙧𝙤𝙪𝙥 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Main Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐌𝐚𝐢𝐧 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}groupmenu`
 										},
 										{
 										"title": "╚══❖𝙈𝙖𝙠𝙚𝙧 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Logo Making Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐋𝐨𝐠𝐨 𝐌𝐚𝐤𝐢𝐧𝐠 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}makermenu`
 									},
 									{
 										"title": "╚══❖𝙎𝙤𝙪𝙣𝙙 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Sound Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐒𝐨𝐮𝐧𝐝 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
 										"title": "╚══❖𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Download Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
 										"title": "╚══❖𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Sticker Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}stickermenu`
 									},
 									{
 										"title": "╚══❖𝙎𝙚𝙖𝙧𝙘𝙝 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Searching Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
 										"title": "╚══❖𝙏𝙤𝙤𝙡 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Tool Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐓𝐨𝐨𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}toolmenu`
 									},
 									{
 										"title": "╚══❖𝙍𝙖𝙣𝙙𝙤𝙢 𝙄𝙢𝙖𝙜𝙚 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Random Image Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐑𝐚𝐧𝐝𝐨𝐦 𝐈𝐦𝐚𝐠𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}randomimagemenu`
 									},
 									{
 										"title": "╚══❖𝙄𝙢𝙖𝙜𝙚 𝙀𝙛𝙛𝙚𝙘𝙩 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Image Effect Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐈𝐦𝐚𝐠𝐞 𝐄𝐟𝐟𝐞𝐜𝐭 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}imageeffectmenu`
 									},
 										{
 											"title": "╚══❖𝘼𝙣𝙞𝙢𝙚 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Random Anime Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐑𝐚𝐧𝐝𝐨𝐦 𝐀𝐧𝐢𝐦𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}animemenu`
 										},
 										{
 											"title": "╚══❖𝙀𝙢𝙤𝙩𝙚 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Emote Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐄𝐦𝐨𝐭𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}emotemenu`
 										},
 										{
 										"title": "╚══❖𝘼𝙣𝙞𝙢𝙚 𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Anime Sticker Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐀𝐧𝐢𝐦𝐞 𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}animestickermenu`
 									     },
 									{
 										"title": "╚══❖𝙉𝙨𝙛𝙬 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Nsfe Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐍𝐬𝐟𝐰 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}nsfwmenu`
 									     },
 										{
 											"title": "╚══❖𝙁𝙪𝙣 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Fun Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐅𝐮𝐧 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}funmenu`
 										},
 										{
 										"title": "╚══❖𝙂𝙖𝙢𝙚 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Game Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐆𝐚𝐦𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}indomenu`
-									},
+									        },
 										{
 											"title": "╚══❖𝘾𝙤𝙣𝙫𝙚𝙧𝙩 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Convert Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐂𝐨𝐧𝐯𝐞𝐫𝐭 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
 											"title": "╚══❖𝘿𝙖𝙩𝙖𝙗𝙖𝙨𝙚 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Database Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
 										"title": "╚══❖𝙄𝙣𝙙𝙤 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Indo Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐈𝐧𝐝𝐨 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}indomenu`
 									},
 										{
 											"title": "╚══❖𝙃𝙤𝙧𝙤𝙨𝙘𝙤𝙥𝙚 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Horoscope Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐇𝐨𝐫𝐨𝐬𝐜𝐨𝐩𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}indohoroscopemenu`
 										}
 								]
@@ -9007,7 +9007,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "╚══❖𝘼𝙣𝙤𝙣𝙮𝙢𝙤𝙪𝙨 𝘾𝙝𝙖𝙩 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "Displays The List Of Anonymous Chat Features",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬 𝐂𝐡𝐚𝐭 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}anonymousmenu`
 									}
 								]
@@ -9017,7 +9017,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "╚══❖𝙏𝙝𝙖𝙣𝙠𝙨 𝙏𝙤❖══╝",
-										"description": "Displays The List Of Credit Of The Bot !!",
+										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐂𝐫𝐞𝐝𝐢𝐭 𝐎𝐟 𝐓𝐡𝐞 𝐁𝐨𝐭 !!",
 										"rowId": `${prefix}tqtt`
 									}
 								]
