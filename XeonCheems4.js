@@ -8157,7 +8157,7 @@ break
 case 'ytad': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-XeonBotInc.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp3", contextInfo:{externalAdReply:{
+XeonBotInc.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:`${global.botname}`,
 thumbnail: log0,
