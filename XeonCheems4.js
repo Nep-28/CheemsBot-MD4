@@ -8886,7 +8886,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Initial Features Of Bot 🦄",
 								"rows": [
 									{
-										"title": "Other ☕",
+										"title": "╚══❖𝙊𝙩𝙝𝙚𝙧❖══╝",
 										"description": "Displays The List Of Other Features",
 										"rowId": `${prefix}othermenu`
 									}
@@ -8896,117 +8896,117 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Bot Features ❤️",
 								"rows": [
 									{
-										"title": "All Menu 🥀",
+										"title": "╚══❖𝘼𝙡𝙡 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu 💠",
+										"title": "╚══❖𝙊𝙬𝙣𝙚𝙧 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Owner Features",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu ✨",
+										"title": "╚══❖𝙂𝙧𝙤𝙪𝙥 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}groupmenu`
 										},
 										{
-										"title": "Maker Menu 🌈",
+										"title": "╚══❖𝙈𝙖𝙠𝙚𝙧 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Logo Making Features",
 										"rowId": `${prefix}makermenu`
 									},
 									{
-										"title": "Sound Menu 🎵",
+										"title": "╚══❖𝙎𝙤𝙪𝙣𝙙 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Sound Features",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
-										"title": "Download Menu ↘️",
+										"title": "╚══❖𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Sticker Menu 🃏",
+										"title": "╚══❖𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Sticker Features",
 										"rowId": `${prefix}stickermenu`
 									},
 									{
-										"title": "Search Menu 🔎",
+										"title": "╚══❖𝙎𝙚𝙖𝙧𝙘𝙝 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "Tool Menu ⚙️",
+										"title": "╚══❖𝙏𝙤𝙤𝙡 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Tool Features",
 										"rowId": `${prefix}toolmenu`
 									},
 									{
-										"title": "Random Image Menu 🌆",
+										"title": "╚══❖𝙍𝙖𝙣𝙙𝙤𝙢 𝙄𝙢𝙖𝙜𝙚 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Random Image Features",
 										"rowId": `${prefix}randomimagemenu`
 									},
 									{
-										"title": "Image Effect Menu 🖼️",
+										"title": "╚══❖𝙄𝙢𝙖𝙜𝙚 𝙀𝙛𝙛𝙚𝙘𝙩 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Image Effect Features",
 										"rowId": `${prefix}imageeffectmenu`
 									},
 										{
-											"title": "Anime Menu 😘",
+											"title": "╚══❖𝘼𝙣𝙞𝙢𝙚 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Random Anime Features",
 										"rowId": `${prefix}animemenu`
 										},
 										{
-											"title": "Emote Menu 😀",
+											"title": "╚══❖𝙀𝙢𝙤𝙩𝙚 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Emote Features",
 										"rowId": `${prefix}emotemenu`
 										},
 										{
-										"title": "Anime Sticker Menu ☺️",
+										"title": "╚══❖𝘼𝙣𝙞𝙢𝙚 𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Anime Sticker Features",
 										"rowId": `${prefix}animestickermenu`
 									     },
 									{
-										"title": "Nsfw Menu 🤓",
+										"title": "╚══❖𝙉𝙨𝙛𝙬 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Nsfe Features",
 										"rowId": `${prefix}nsfwmenu`
 									     },
 										{
-											"title": "Fun Menu 🕺",
+											"title": "╚══❖𝙁𝙪𝙣 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-										"title": "Game Menu 🎮",
+										"title": "╚══❖𝙂𝙖𝙢𝙚 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Game Features",
 										"rowId": `${prefix}indomenu`
 									},
 										{
-											"title": "Convert Menu ⚒️",
+											"title": "╚══❖𝘾𝙤𝙣𝙫𝙚𝙧𝙩 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Convert Features",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu ♻️",
+											"title": "╚══❖𝘿𝙖𝙩𝙖𝙗𝙖𝙨𝙚 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-										"title": "Indo Menu  🦜",
+										"title": "╚══❖𝙄𝙣𝙙𝙤 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Indo Features",
 										"rowId": `${prefix}indomenu`
 									},
 										{
-											"title": "Horoscope Menu 🕊️",
+											"title": "╚══❖𝙃𝙤𝙧𝙤𝙨𝙘𝙤𝙥𝙚 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Horoscope Features",
 										"rowId": `${prefix}indohoroscopemenu`
 										}
 								]
 							},
 							{
-								"title": "Chat With Fellow Users 🌝",
+								"title": "Chat With Fellow Users ",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu 🙎🏻‍♂️",
+										"title": "╚══❖𝘼𝙣𝙤𝙣𝙮𝙢𝙤𝙪𝙨 𝘾𝙝𝙖𝙩 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymousmenu`
 									}
@@ -9016,7 +9016,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Credit ©️",
 								"rows": [
 									{
-										"title": "Thanks To ❤️",
+										"title": "╚══❖𝙏𝙝𝙖𝙣𝙠𝙨 𝙏𝙤❖══╝",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
