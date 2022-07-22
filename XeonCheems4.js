@@ -8873,9 +8873,6 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                      }
             break
 		                   case 'test':{
-                           	timestampe = speed();
-latensie = speed() - timestampe
- anu = ` `
 const template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -8930,7 +8927,7 @@ const template = await generateWAMessageFromContent(m.chat, proto.Message.fromOb
                     }
                 }), { userJid: m.chat })
                 XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
-                }
+            }
 break
                 case 'command': {
                 	   if (isBan) return reply(mess.ban)
