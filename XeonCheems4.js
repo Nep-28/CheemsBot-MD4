@@ -8872,6 +8872,66 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                         }
                      }
             break
+		                   case 'test':{
+                           	timestampe = speed();
+latensie = speed() - timestampe
+ anu = ` `
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./XeonMedia/theme/new.jpg')},
+                            hydratedFooterText: `┌─❖
+│「 Hi 👋 」
+└┬❖ 「 ${pushname} 」
+┌┤✑  Cheems Bot With You Forever 
+││✑  🐶🖐️!!
+│└───────────────┈ ⳹
+│ 「 BOT INFO 」
+│✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
+│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
+│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+└┬──────────────┈ ⳹
+   │✑  Please Select The Button Below
+   └───────────────┈ ⳹`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'YouTube📍',
+                                    url: `${myweb}`
+                                }
+                            }, {
+                            	urlButton: {
+                                displayText: 'Script🔖',
+                                    url: `${sc}`
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '🍇All Menu🍇',
+                                    id: `${prefix}allmenu`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: '🍒List Menu🍒',
+                                    id: `${prefix}command`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+                }
+break
                 case 'command': {
                 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
