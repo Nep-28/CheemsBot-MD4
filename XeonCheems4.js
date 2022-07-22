@@ -8876,7 +8876,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                            	timestampe = speed();
 latensie = speed() - timestampe
  anu = ` `
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+const template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
