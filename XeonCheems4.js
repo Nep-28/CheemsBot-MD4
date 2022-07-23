@@ -8900,12 +8900,12 @@ const template = await generateWAMessageFromContent(m.chat, proto.Message.fromOb
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: `${myweb}`
+                                    url: `${websitex}`
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: `${sc}`
+                                    url: `${botscript}`
                                 }
                             }, {
                                 quickReplyButton: {
