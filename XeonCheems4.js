@@ -8795,7 +8795,7 @@ sourceUrl: "https://telegra.ph/file/8737b098fd5702daeb7e0.jpg"
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
 break
-case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
+case 'help': case 'panel': case 'list': {
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
@@ -8848,7 +8848,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                         }
                      }
             break
-		case 'testt': {
+		case 'alive': {
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `😀`, key: m.key }})
@@ -8912,7 +8912,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "Initial Features Of Bot 🦄",
+								"title": "Initial Features Of Bot ",
 								"rows": [
 									{
 										"title": "╚══❖𝙊𝙩𝙝𝙚𝙧❖══╝",
@@ -8922,7 +8922,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "Bot Features ❤️",
+								"title": "Bot Features ",
 								"rows": [
 									{
 										"title": "╚══❖𝘼𝙡𝙡 𝙈𝙚𝙣𝙪❖══╝",
@@ -9042,7 +9042,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "Credit ©️",
+								"title": "Credit ",
 								"rows": [
 									{
 										"title": "╚══❖𝙏𝙝𝙖𝙣𝙠𝙨 𝙏𝙤❖══╝",
