@@ -1114,6 +1114,21 @@ const latensie = speed() - timestampe
    │✑  𝘛𝘩𝘦 𝘉𝘶𝘵𝘵𝘰𝘯 𝘉𝘦𝘭𝘰𝘸
    └─────────────┈ ⳹`
    
+		const alivems = `┌─❖
+│「 ʰⁱ 👋 」
+└┬❖ 「 ${pushname} 」
+┌┤✑  𝙸'𝚖 𝙰𝚕𝚒𝚟𝚎 𝙽𝚘𝚠 🎉
+│└────────────┈ ⳹
+│
+└─「 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 」       
+│ℝ𝕦𝕟𝕥𝕚𝕞𝕖 : ${runtime(process.uptime())}
+│𝔹𝕠𝕥 ℕ𝕒𝕞𝕖 : ${global.botname}
+│𝕆𝕨𝕟𝕖𝕣 ℕ𝕒𝕞𝕖 : ${global.ownername}
+└┬────────────┈ ⳹
+   │✑  𝘛𝘺𝘱𝘦 .𝘱𝘢𝘯𝘦𝘭 𝘛𝘰
+   │✑  𝘎𝘦𝘵 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴
+   └─────────────┈ ⳹`
+		
    //randoming function
 function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]
@@ -8849,8 +8864,8 @@ XeonBotInc.sendMessage(from, { react: { text: `😀`, key: m.key }})
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu 🍱',
-                                    id: 'allmenu'
+                                    displayText: 'Commands Panel 📚',
+                                    id: 'panel'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -8878,11 +8893,11 @@ XeonBotInc.sendMessage(from, { react: { text: `😀`, key: m.key }})
                         let buttonmenu = [
         	{ urlButton: { displayText: `Group 🎀`, url : `${websitex}` } },
             { urlButton: { displayText: `Script 🍜`, url: `${botscript}` } },
-            { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
+            { quickReplyButton: { displayText: `Commands Panel 📚`, id: 'panel'} },
             { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
             { quickReplyButton: { displayText: `Owner 👑`, id: 'owner'} }
         	]
-        	XeonBotInc.sendMessage(m.chat, { caption: menulist, image: fs.readFileSync('./XeonMedia/theme/new.jpg'), templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
+        	XeonBotInc.sendMessage(m.chat, { caption: alivems, image: fs.readFileSync('./XeonMedia/theme/new.jpg'), templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                         }
                      }
             break
