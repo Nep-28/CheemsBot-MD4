@@ -8015,45 +8015,6 @@ case 'ttaud':{
     XeonBotInc.sendMessage(from, { audio: { url: xeonytiktokaudio }, mimetype: 'audio/mp4' }, { quoted: m })
    }
  break
-	case 'ytvdd': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args[0]) return reply(mess.linkm)
-try {
-hx.youtube(args[0]).then(async(res) => {
-textyt = `*| YOUTUBE DOWNLOADER |*
-
-${global.themeemoji} Title : ${res.title}
-${global.themeemoji} Size : ${res.size}
-
-_Select quality and wait a while_`
-let buttons = [
-{buttonId: `ytvd ${res.link} 360p`, buttonText: {displayText: '360P'}, type: 1},
-{buttonId: `ytvd ${res.link} 480p`, buttonText: {displayText: '480P'}, type: 1},
-{buttonId: `ytvd ${res.link} 720p`, buttonText: {displayText: '720P'}, type: 1}
-]
-let buttonMessage = {
-image: {url:res.thumb},
-caption: textyt,
-footer: `${botname}`,
-buttons: buttons,
-headerType: 4,
-contextInfo:{externalAdReply:{
-title: res.title,
-body: `${global.ownername}`,
-thumbnail: {url:res.thumb},
-mediaType:3,
-mediaUrl: args[0],
-sourceUrl: args[0]
-}}
-}
-XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
-}).catch(_ => _)
-} catch {
-reply("Link error!")
-}
-}
-break
 	case 'music': case 'play': case 'yt': case 'ytplay': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
@@ -8872,14 +8833,10 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                         }
                      }
             break
-		                   case 'test':{
-const template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/theme/new.jpg')},
-                            hydratedFooterText: `┌─❖
+		case 'testt': {
+   if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+textal = `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
 ┌┤✑  Cheems Bot With You Forever 
@@ -8896,38 +8853,24 @@ const template = await generateWAMessageFromContent(m.chat, proto.Message.fromOb
 │✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
    │✑  Please Select The Button Below
-   └───────────────┈ ⳹`,
-                            hydratedButtons: [{
-                                urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: `${websitex}`
-                                }
-                            }, {
-                            	urlButton: {
-                                displayText: 'Script🔖',
-                                    url: `${botscript}`
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
-                                    id: `${prefix}allmenu`
-                                }
-                                }, {
-                                quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
-                                    id: `${prefix}command`
-                                }
-                                }, {
-                                quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: `${prefix}owner`
-                                }
-                            }]
-                        }
-                    }
-                }), { userJid: m.chat })
-                XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
-            }
+   └───────────────┈ ⳹`
+let buttons = [
+{buttonId: `ytvd ${res.link} 360p`, buttonText: {displayText: '360P'}, type: 1},
+{buttonId: `ytvd ${res.link} 480p`, buttonText: {displayText: '480P'}, type: 1},
+{buttonId: `ytvd ${res.link} 720p`, buttonText: {displayText: '720P'}, type: 1}
+]
+let buttonMessage = {
+image: thum,
+caption: textal,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+thumbnail: fs.readFileSync("XeonMedia/theme/new.jpg"),
+}}
+}
+XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
+}
+}
 break
                 case 'command': {
                 	   if (isBan) return reply(mess.ban)
