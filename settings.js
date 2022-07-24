@@ -67,8 +67,9 @@ global.botname = '😮⃝⃟۝᭄̊̊࿔࿓𝐍𝐞𝐩тυη乇 𝕓𝕠𝕥�
 global.linkz = "https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT" //your theme url which will be displayed on whatsapp
 global.websitex = "https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT" //ur website to be displayed
 global.botscript = 'Nothing 🤣' //script link
-global.reactmoji = "😘" //ur menu react emoji
-global.themeemoji = "🦄" //ur theme emoji
+global.reactmoji = "👋" //ur menu react emoji
+global.reactmoji2 = "✅" //ur alive react emoji
+global.themeemoji = "🔖" //ur theme emoji
 global.packname = "Nep Botz Stickers\n\n\n\n\n\n\n\n\n\n\nnepbotz " //ur sticker watermark packname
 global.author = "🌹⃝⃘̉̉̉̉̉̉🧚ℕ𝕖𝕡𝕥𝕦𝕟𝕖❤️⃝➤⃟̱̱̱̱̄̄̄̄" //ur sticker watermark author
 
