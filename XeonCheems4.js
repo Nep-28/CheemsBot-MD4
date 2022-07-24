@@ -8833,45 +8833,6 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                         }
                      }
             break
-		case 'testt': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-textal = `┌─❖
-│「 Hi 👋 」
-└┬❖ 「 ${pushname} 」
-┌┤✑  Cheems Bot With You Forever 
-││✑  🐶🖐️!!
-│└───────────────┈ ⳹
-│ 「 BOT INFO 」
-│✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-└┬──────────────┈ ⳹
-   │✑  Please Select The Button Below
-   └───────────────┈ ⳹`
-let buttons = [
-{buttonId: `ytvd ${res.link} 360p`, buttonText: {displayText: '360P'}, type: 1},
-{buttonId: `ytvd ${res.link} 480p`, buttonText: {displayText: '480P'}, type: 1},
-{buttonId: `ytvd ${res.link} 720p`, buttonText: {displayText: '720P'}, type: 1}
-]
-let buttonMessage = {
-image: thum,
-caption: textal,
-footer: `${botname}`,
-buttons: buttons,
-headerType: 4,
-thumbnail: fs.readFileSync("XeonMedia/theme/new.jpg"),
-}}
-}
-XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
-}
-}
-break
                 case 'command': {
                 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
