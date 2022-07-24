@@ -8851,7 +8851,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
 		case 'alive': {
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-XeonBotInc.sendMessage(from, { react: { text: `😀`, key: m.key }})
+XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji2}`, key: m.key }})
 	                let btn = [{
                                 urlButton: {
                                     displayText: 'Group 🎀',
