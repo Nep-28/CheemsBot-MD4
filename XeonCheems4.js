@@ -9063,7 +9063,7 @@ case 'allmenu':
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'All Menu')
 await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」	
-╠ ${prefix}self
+╠ ${prefix}private
 ╠ ${prefix}public
 ╠ ${prefix}antitag
 ╠ ${prefix}rentbot [add/del]
@@ -9788,7 +9788,7 @@ case 'ownermenu':
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Owner Menu')
 await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」	
-╠ ${prefix}self
+╠ ${prefix}private 
 ╠ ${prefix}public
 ╠ ${prefix}antitag
 ╠ ${prefix}ban [add/del]
@@ -9871,7 +9871,7 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 RPG 」
 ╠${prefix}inventory
 ╠${prefix}leaderboard
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
-break
+break 
 case 'makermenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
