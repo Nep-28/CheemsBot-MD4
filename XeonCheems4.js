@@ -7123,8 +7123,8 @@ ${global.themeemoji} Quality : ${res.quality}
 
 _Select video or audio and wait a while_`
 let buttons = [
-{buttonId: `getyt4 ${res.link}`, buttonText: {displayText: '► Video'}, type: 1},
-{buttonId: `ytad ${res.mp3}`, buttonText: {displayText: '♫ Audio'}, type: 1}
+{buttonId: `getytv ${res.link}`, buttonText: {displayText: 'Video'}, type: 1},
+{buttonId: `ytad ${res.mp3}`, buttonText: {displayText: 'Audio'}, type: 1}
 ]
 let buttonMessage = {
 image: {url:res.thumb},
@@ -7148,7 +7148,7 @@ reply("Link error!")
 }
 }
 break
-case 'getyt4': {
+case 'getytv': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!args[0]) return reply(mess.linkm)
