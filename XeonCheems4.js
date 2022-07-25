@@ -7078,8 +7078,8 @@ let search = await yts(text)
 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
 let ytvc = await hx.youtube(anu.url)
 let buttons = [
-{buttonId: `getyt4 ${ytvc.link}`, buttonText: {displayText: '► Video'}, type: 1},
-{buttonId: `ytad ${ytvc.mp3}`, buttonText: {displayText: '♫ Audio'}, type: 1}
+{buttonId: `getytv ${res.link}`, buttonText: {displayText: 'Video'}, type: 1},
+{buttonId: `ytad ${ytvc.mp3}`, buttonText: {displayText: 'Audio'}, type: 1}
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
