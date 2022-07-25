@@ -7109,7 +7109,7 @@ sourceUrl: anu.url
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
 break
-case 'getmusic': case 'getvideo': case 'yt': case 'youtube': case 'ytvideo': case 'ytmp3': case 'ytmp4': case 'ytmusic': {
+case 'getmusic': case 'getvideo': case 'ytd': case 'youtube': case 'ytvideo': case 'ytmp3': case 'ytmp4': case 'ytmusic': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!args[0]) return reply(mess.linkm)
@@ -7123,7 +7123,7 @@ ${global.themeemoji} Quality : ${res.quality}
 
 _Select video or audio and wait a while_`
 let buttons = [
-{buttonId: `ytvd ${res.link}`, buttonText: {displayText: '► Video'}, type: 1},
+{buttonId: `getyt4 ${res.link}`, buttonText: {displayText: '► Video'}, type: 1},
 {buttonId: `ytad ${res.mp3}`, buttonText: {displayText: '♫ Audio'}, type: 1}
 ]
 let buttonMessage = {
@@ -7154,7 +7154,7 @@ if (isBanChat) return reply(mess.banChat)
 if (!args[0]) return reply(mess.linkm)
 try {
 hx.youtube(args[0]).then(async(res) => {
-textdl4 = `༺═─⃟─⃟─⃟𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁─⃟─⃟─⃟═༻\n┌───────────\𝚗│ 𝗣𝗹𝗲𝗮𝘀𝗲 𝘀𝗲𝗹𝗲𝗰𝘁 𝘁𝗵𝗲 𝗾𝘂𝗮𝗹𝗶𝘁𝘆\n│\n│ This future is still testing\n│ If 480p and 720p don't work, use 320p\n└───────────`
+textdl4 = `༺═─⃟─⃟─⃟𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁─⃟─⃟─⃟═༻\n┌───────────\n│ 𝗣𝗹𝗲𝗮𝘀𝗲 𝘀𝗲𝗹𝗲𝗰𝘁 𝘁𝗵𝗲 𝗾𝘂𝗮𝗹𝗶𝘁𝘆\n│\n│ This future is still testing\n│ If 480p and 720p don't work, use 320p\n└───────────`
 let buttons = [
 {buttonId: `ytvd ${res.link} 360p`, buttonText: {displayText: '360P'}, type: 1},
 {buttonId: `ytvd ${res.link} 480p`, buttonText: {displayText: '480P'}, type: 1},
