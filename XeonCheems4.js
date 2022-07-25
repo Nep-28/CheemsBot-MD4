@@ -1107,23 +1107,25 @@ const latensie = speed() - timestampe
 │𝕆𝕨𝕟𝕖𝕣 ℕ𝕠. : ${global.owner}
 │ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞 : ${os.platform()}
 │𝕋𝕠𝕥𝕒𝕝 𝕌𝕤𝕖𝕣 : ${Object.keys(global.db.data.users).length}
-│𝕋𝕠𝕥𝕒𝕝 ℍ𝕚𝕥 : ${jumlahcmd}
-│𝕋𝕠𝕥𝕒𝕝 ℍ𝕚𝕥 𝕋𝕠𝕕𝕒𝕪 : ${jumlahharian}
+└─「 𝐍𝐎𝐓𝐄 」       
+│𝔻𝕠𝕟'𝕥 𝕦𝕤𝕖 𝕓𝕠𝕥 𝕗𝕠𝕣 𝕓𝕒𝕕 𝕥𝕙𝕚𝕟𝕘𝕤
 └┬────────────┈ ⳹
    │✑  𝘗𝘭𝘦𝘢𝘴𝘦 𝘚𝘦𝘭𝘦𝘤𝘵
    │✑  𝘛𝘩𝘦 𝘉𝘶𝘵𝘵𝘰𝘯 𝘉𝘦𝘭𝘰𝘸
    └─────────────┈ ⳹`
    
-		const alivems = `┌─❖
+		const alivems =`┌─❖
 │「 ʰⁱ 👋 」
 └┬❖ 「 ${pushname} 」
 ┌┤✑  𝙸'𝚖 𝙰𝚕𝚒𝚟𝚎 𝙽𝚘𝚠 🎉
 │└────────────┈ ⳹
 │
-└─「 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 」       
+└─「 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 」  
 │ℝ𝕦𝕟𝕥𝕚𝕞𝕖 : ${runtime(process.uptime())}
 │𝔹𝕠𝕥 ℕ𝕒𝕞𝕖 : ${global.botname}
 │𝕆𝕨𝕟𝕖𝕣 ℕ𝕒𝕞𝕖 : ${global.ownername}
+└─「 𝐍𝐎𝐓𝐄 」
+│ 𝔻𝕠𝕟'𝕥 𝕦𝕤𝕖 𝕓𝕠𝕥 𝕗𝕠𝕣 𝕓𝕒𝕕 𝕥𝕙𝕚𝕟𝕘𝕤
 └┬────────────┈ ⳹
    │✑  𝘛𝘺𝘱𝘦 .𝘱𝘢𝘯𝘦𝘭 𝘛𝘰
    │✑  𝘎𝘦𝘵 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴
@@ -4887,7 +4889,7 @@ let anui = await textpro(link, q)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
-case 'pornhub':{
+case 'blackyelow2':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if(!q) return reply(`Example: ${prefix + command} ajg | ea`)
@@ -6063,7 +6065,7 @@ xeonkey.Film(q)
                XeonBotInc.sendMessage(from, { image: { url: data[0].thumb}, caption: krl }, { quoted: fdocs })
 });
 break
-case 'img':
+case 'imge':
 case 'image': {
 	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
