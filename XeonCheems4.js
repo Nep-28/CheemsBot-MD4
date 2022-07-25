@@ -8018,25 +8018,10 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}imageeffectmenu`
 									},
 										{
-											"title": "╚══❖𝘼𝙣𝙞𝙢𝙚 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐑𝐚𝐧𝐝𝐨𝐦 𝐀𝐧𝐢𝐦𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
-										"rowId": `${prefix}animemenu`
-										},
-										{
 											"title": "╚══❖𝙀𝙢𝙤𝙩𝙚 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐄𝐦𝐨𝐭𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
 										"rowId": `${prefix}emotemenu`
 										},
-										{
-										"title": "╚══❖𝘼𝙣𝙞𝙢𝙚 𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐀𝐧𝐢𝐦𝐞 𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
-										"rowId": `${prefix}animestickermenu`
-									     },
-									{
-										"title": "╚══❖𝙉𝙨𝙛𝙬 𝙈𝙚𝙣𝙪❖══╝",
-										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐍𝐬𝐟𝐰 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
-										"rowId": `${prefix}nsfwmenu`
-									     },
 										{
 											"title": "╚══❖𝙁𝙪𝙣 𝙈𝙚𝙣𝙪❖══╝",
 										"description": "𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐬 𝐓𝐡𝐞 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐅𝐮𝐧 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬",
@@ -8378,93 +8363,12 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}googleemoji
 ╠${prefix}pediaemoji
 ╠${prefix}microsoftemoji
-╠═══════✪「 ANIME 」
-╠${prefix}naruto
-╠${prefix}yaoi
-╠${prefix}neko2
-╠${prefix}waifu
-╠${prefix}waifu2
-╠${prefix}awoo2
-╠${prefix}shinobu
-╠${prefix}waifu3
-╠${prefix}foxgirl
-╠${prefix}megumin2
-╠${prefix}loli
-╠${prefix}8ball
-╠${prefix}animenom
-╠${prefix}goose
-╠${prefix}avatar
-╠${prefix}tickle
-╠${prefix}gecg
-╠${prefix}feed
-╠${prefix}animeslap
-╠${prefix}animespank
-╠${prefix}animepat
-╠${prefix}animeneko
-╠${prefix}animekiss
-╠${prefix}animewlp
-╠${prefix}animecuddle
-╠${prefix}animecry
-╠${prefix}animekill
-╠${prefix}animelick
-╠${prefix}animebite
-╠${prefix}animeyeet
-╠${prefix}animebully
-╠${prefix}animebonk
-╠${prefix}animewink
-╠${prefix}animepoke
-╠${prefix}animesmile
-╠${prefix}animewave
-╠${prefix}animeawoo
-╠${prefix}animeblush
-╠${prefix}animesmug
-╠${prefix}animeglomp
-╠${prefix}animehappy
-╠${prefix}animedance
-╠${prefix}animecringe
-╠${prefix}animehighfive
-╠${prefix}animehandhold
-╠${prefix}animemegumin
-╠${prefix}smug2
-╠${prefix}couplepp
 ╠══════✪「 STICKER 」
 ╠ ${prefix}patrick
 ╠ ${prefix}emoji
 ╠ ${prefix}emojimix
 ╠ ${prefix}attp
 ╠ ${prefix}ttp
-╠ ${prefix}doge
-╠ ${prefix}lovesticker
-╠════✪「 ANIME STICKER 」
-╠${prefix}loli
-╠${prefix}bully
-╠${prefix}cuddle
-╠${prefix}cry
-╠${prefix}hug
-╠${prefix}awoo
-╠${prefix}kiss
-╠${prefix}lick
-╠${prefix}pat
-╠${prefix}smug
-╠${prefix}bonk
-╠${prefix}yeet
-╠${prefix}blush
-╠${prefix}smile
-╠${prefix}wave
-╠${prefix}highfive
-╠${prefix}handhold
-╠${prefix}nom
-╠${prefix}glomp
-╠${prefix}bite
-╠${prefix}slap
-╠${prefix}kill
-╠${prefix}happy
-╠${prefix}wink
-╠${prefix}poke
-╠${prefix}dance
-╠${prefix}cringe
-╠${prefix}neko
-╠${prefix}gura
 ╠═══════✪「 FUN 」
 ╠ ${prefix}how [text
 ╠ ${prefix}when [text]
@@ -8706,7 +8610,7 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}next
 ╠${prefix}leave
 ╠══════✪「 TOOL 」
-╠ ${prefix}translate [text]
+╠ ${prefix}trt [text]
 ╠ ${prefix}fliptext [text]
 ╠ ${prefix}toletter [number]
 ╠══════✪「 DATABASE 」
@@ -9151,60 +9055,6 @@ await XeonBotInc.send5ButImg(from, `╔═════✪「 IMG EFFECT 」
 ╠${prefix}pixelate
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
-case 'animemenu':
-	   if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-var unicorn = await getBuffer(picak+'Anime Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 ANIME 」	
-╠${prefix}naruto
-╠${prefix}yaoi
-╠${prefix}neko2
-╠${prefix}waifu
-╠${prefix}waifu3
-╠${prefix}shinobu
-╠${prefix}awoo2
-╠${prefix}waifu2
-╠${prefix}foxgirl
-╠${prefix}animenom
-╠${prefix}goose
-╠${prefix}8ball
-╠${prefix}avatar
-╠${prefix}tickle
-╠${prefix}gecg
-╠${prefix}feed
-╠${prefix}animeslap
-╠${prefix}animespank
-╠${prefix}animepat
-╠${prefix}animeneko
-╠${prefix}animekiss
-╠${prefix}animewlp
-╠${prefix}animecuddle
-╠${prefix}animecry
-╠${prefix}animekill
-╠${prefix}animelick
-╠${prefix}animebite
-╠${prefix}animeyeet
-╠${prefix}animebully
-╠${prefix}animebonk
-╠${prefix}animewink
-╠${prefix}animepoke
-╠${prefix}animesmile
-╠${prefix}animewave
-╠${prefix}animeawoo
-╠${prefix}animeblush
-╠${prefix}animesmug
-╠${prefix}animeglomp
-╠${prefix}animehappy
-╠${prefix}animedance
-╠${prefix}animecringe
-╠${prefix}animehighfive
-╠${prefix}animehandhold
-╠${prefix}animemegumin
-╠${prefix}megumin2
-╠${prefix}loli
-╠${prefix}couplepp
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
-break
 case 'stickermenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
@@ -9215,44 +9065,6 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 STICKER 」
 ╠ ${prefix}emojimix
 ╠ ${prefix}attp
 ╠ ${prefix}ttp
-╠ ${prefix}doge
-╠ ${prefix}lovesticker
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
-break
-case 'animestickermenu':
-	   if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-var unicorn = await getBuffer(picak+'Anime Sticker Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 ANIME STICKER 」	
-╠${prefix}loli
-╠${prefix}bully
-╠${prefix}cuddle
-╠${prefix}cry
-╠${prefix}hug
-╠${prefix}awoo
-╠${prefix}kiss
-╠${prefix}lick
-╠${prefix}pat
-╠${prefix}smug
-╠${prefix}bonk
-╠${prefix}yeet
-╠${prefix}blush
-╠${prefix}smile
-╠${prefix}wave
-╠${prefix}highfive
-╠${prefix}handhold
-╠${prefix}nom
-╠${prefix}glomp
-╠${prefix}bite
-╠${prefix}slap
-╠${prefix}kill
-╠${prefix}happy
-╠${prefix}wink
-╠${prefix}poke
-╠${prefix}dance
-╠${prefix}cringe
-╠${prefix}neko
-╠${prefix}gura
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'funmenu':
