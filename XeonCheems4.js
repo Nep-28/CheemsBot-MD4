@@ -7078,7 +7078,7 @@ let search = await yts(text)
 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
 let ytvc = await hx.youtube(anu.url)
 let buttons = [
-{buttonId: `getytv ${res.link}`, buttonText: {displayText: 'Video'}, type: 1},
+{buttonId: `ytvd ${res.link}`, buttonText: {displayText: 'Video'}, type: 1},
 {buttonId: `ytad ${ytvc.mp3}`, buttonText: {displayText: 'Audio'}, type: 1}
 ]
 let buttonMessage = {
@@ -7123,7 +7123,7 @@ ${global.themeemoji} Quality : ${res.quality}
 
 _Select video or audio and wait a while_`
 let buttons = [
-{buttonId: `getytv ${res.link}`, buttonText: {displayText: 'Video'}, type: 1},
+{buttonId: `ytvd ${res.link}`, buttonText: {displayText: 'Video'}, type: 1},
 {buttonId: `ytad ${res.mp3}`, buttonText: {displayText: 'Audio'}, type: 1}
 ]
 let buttonMessage = {
