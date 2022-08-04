@@ -70,6 +70,7 @@ global.botscript = 'Nothing 🤣' //script link
 global.reactmoji = "👋" //ur menu react emoji
 global.reactmoji2 = "✅" //ur alive react emoji
 global.themeemoji = "🔖" //ur theme emoji
+global.note = "ℕ𝕠 𝕟𝕠𝕥𝕖"
 global.packname = "Nep Botz Stickers\n\n\n\n\n\n\n\n\n\n\nnepbotz " //ur sticker watermark packname
 global.author = "🌹⃝⃘̉̉̉̉̉̉🧚ℕ𝕖𝕡𝕥𝕦𝕟𝕖❤️⃝➤⃟̱̱̱̱̄̄̄̄" //ur sticker watermark author
 
