@@ -7981,7 +7981,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji2}`, key: m.key
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname} 👋🙂`,
-                    description: `╔═══════════════════╗\n╠𝐏𝐥𝐞𝐚𝐬𝐞 𝐂𝐡𝐨𝐨𝐬𝐞 𝐭𝐡𝐞 𝐦𝐞𝐧𝐮\n║\n╠𝐏𝐨𝐰𝐞𝐫𝐝 𝐁𝐲 ${global.ownername} \n║\n║\n║\n║\n║\n║\n╚═══════════════════╝\n`,
+                    description: `╔═══════════════════╗\n╠𝐏𝐥𝐞𝐚𝐬𝐞 𝐂𝐡𝐨𝐨𝐬𝐞 𝐭𝐡𝐞 𝐦𝐞𝐧𝐮\n║\n╠𝐏𝐨𝐰𝐞𝐫𝐝 𝐁𝐲 ${global.ownername} \n║\n╠   「 𝗡𝗢𝗧𝗘 」\n╠ ${global.note}\n║\n║\n║\n╚═══════════════════╝\n`,
                     buttonText: "𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴",
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
