@@ -190,15 +190,21 @@ let buttons = [
 {buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
 ]
 let buttonMessage = {
-image: XeonWlcm,
+document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
+mimetype: docs,
+jpegThumbnail:XeonWlcm,
 mentions: [num],
+fileName: `${metadata.subject}`,
+fileLength: 99999999999999,
 caption: xeonbody,
 footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
+title: `${ownername}`,
 body: `Don't forget to read group description`,
 mediaType:2,
+thumbnail: XeonWlcm,
 sourceUrl: `${websitex}`,
 mediaUrl: `${websitex}`
 }}
