@@ -7918,7 +7918,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
             { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
             { quickReplyButton: { displayText: `Owner 👑`, id: 'owner'} }
         	]
-        	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
+        	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: ` ${global.footer2}`, mentionedJid: [m.sender] })
                         }
                      }
             break
@@ -7971,7 +7971,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji2}`, key: m.key
             { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
             { quickReplyButton: { displayText: `Owner 👑`, id: 'owner'} }
         	]
-        	XeonBotInc.sendMessage(m.chat, { caption: alivems, image: fs.readFileSync('./XeonMedia/theme/new.jpg'), templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
+        	XeonBotInc.sendMessage(m.chat, { caption: alivems, image: fs.readFileSync('./XeonMedia/theme/new.jpg'), templateButtons: buttonmenu, footer: `${global.footer2}`, mentionedJid: [m.sender] })
                         }
                      }
             break
@@ -7983,7 +7983,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname} 👋🙂`,
                     description: `╔═══════════════════╗\n╠𝐏𝐥𝐞𝐚𝐬𝐞 𝐂𝐡𝐨𝐨𝐬𝐞 𝐭𝐡𝐞 𝐦𝐞𝐧𝐮\n║\n╠𝐏𝐨𝐰𝐞𝐫𝐝 𝐁𝐲 ${global.ownername} \n║\n╠   「 𝗡𝗢𝗧𝗘 」\n╠ ${global.note}\n║\n║\n║\n╚═══════════════════╝\n`,
                     buttonText: "𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴",
-                    footerText: `${global.botname}`,
+                    footerText: `${global.footer2}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Initial Features Of Bot ",
