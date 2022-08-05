@@ -64,13 +64,14 @@ global.location = "Sri Lanka, Southern Province, Galle" //ur location
 global.owner = ['94702476028']
 global.ownertag = '94702476028' //ur tag number
 global.botname = '😮⃝⃟۝᭄̊̊࿔࿓𝐍𝐞𝐩тυη乇 𝕓𝕠𝕥𝚣❤️⃝😒ꦿ࿔' //ur bot name
+global.footer2 = '🌹⃝⃘̉̉̉̉̉̉🧚𝙽𝚎𝚙𝚝𝚞𝚗𝚎 𝚋𝚘𝚝𝚣 𝚙𝚞𝚋𝚕𝚒𝚌 𝚎𝚍𝚒𝚝𝚘𝚗' // ur footer
 global.linkz = "https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT" //your theme url which will be displayed on whatsapp
 global.websitex = "https://chat.whatsapp.com/Gi47BN7YM30321sUIa7mtT" //ur website to be displayed
 global.botscript = 'Nothing 🤣' //script link
 global.reactmoji = "👋" //ur menu react emoji
 global.reactmoji2 = "✅" //ur alive react emoji
 global.themeemoji = "🔖" //ur theme emoji
-global.note = "ℕ𝕠 𝕟𝕠𝕥𝕖"
+global.note = "ℕ𝕠 𝕟𝕠𝕥𝕖" // ur note
 global.packname = "Nep Botz Stickers\n\n\n\n\n\n\n\n\n\n\nnepbotz " //ur sticker watermark packname
 global.author = "🌹⃝⃘̉̉̉̉̉̉🧚ℕ𝕖𝕡𝕥𝕦𝕟𝕖❤️⃝➤⃟̱̱̱̱̄̄̄̄" //ur sticker watermark author
 
