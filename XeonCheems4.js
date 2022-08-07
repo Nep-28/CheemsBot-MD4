@@ -1108,7 +1108,7 @@ const latensie = speed() - timestampe
 │ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞 : ${os.platform()}
 │𝕋𝕠𝕥𝕒𝕝 𝕌𝕤𝕖𝕣 : ${Object.keys(global.db.data.users).length}
 └─「 𝐍𝐎𝐓𝐄 」       
-│𝔻𝕠𝕟'𝕥 𝕦𝕤𝕖 𝕓𝕠𝕥 𝕗𝕠𝕣 𝕓𝕒𝕕 𝕥𝕙𝕚𝕟𝕘𝕤
+│ ${global.note}
 └┬────────────┈ ⳹
    │✑  𝘗𝘭𝘦𝘢𝘴𝘦 𝘚𝘦𝘭𝘦𝘤𝘵
    │✑  𝘛𝘩𝘦 𝘉𝘶𝘵𝘵𝘰𝘯 𝘉𝘦𝘭𝘰𝘸
@@ -1125,7 +1125,7 @@ const latensie = speed() - timestampe
 │𝔹𝕠𝕥 ℕ𝕒𝕞𝕖 : ${global.botname}
 │𝕆𝕨𝕟𝕖𝕣 ℕ𝕒𝕞𝕖 : ${global.ownername}
 └─「 𝐍𝐎𝐓𝐄 」
-│ 𝔻𝕠𝕟'𝕥 𝕦𝕤𝕖 𝕓𝕠𝕥 𝕗𝕠𝕣 𝕓𝕒𝕕 𝕥𝕙𝕚𝕟𝕘𝕤
+│ ${global.note}
 └┬────────────┈ ⳹
    │✑  𝘛𝘺𝘱𝘦 .𝘱𝘢𝘯𝘦𝘭 𝘛𝘰
    │✑  𝘎𝘦𝘵 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴
@@ -7078,23 +7078,24 @@ let search = await yts(text)
 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
 let ytvc = await hx.youtube(anu.url)
 let buttons = [
-{buttonId: `ytvd ${res.link}`, buttonText: {displayText: 'Video'}, type: 1},
+{buttonId: `ytvd ${ytvc.link}`, buttonText: {displayText: 'Video'}, type: 1},
 {buttonId: `ytad ${ytvc.mp3}`, buttonText: {displayText: 'Audio'}, type: 1}
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
-caption: `*| YOUTUBE PLAY |*
+caption: `❖ 𝙔𝙊𝙐𝙏𝙐𝘽𝙀 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 ❖
 
-${global.themeemoji} Title : ${anu.title}
-${global.themeemoji} Ext : Search
-${global.themeemoji} ID : ${anu.videoId}
-${global.themeemoji} Duration : ${anu.timestamp}
-${global.themeemoji} Viewers : ${anu.views}
-${global.themeemoji} Uploaded : ${anu.ago}
-${global.themeemoji} Author : ${anu.author.name}
-${global.themeemoji} Channel : ${anu.author.url}
-${global.themeemoji} Url : ${anu.url}`,
-footer: `${global.botname}`,
+┌─────────❖
+│➤ Title : ${anu.title}
+│➤ Ext : Search
+│➤ ID : ${anu.videoId}
+│➤ Duration : ${anu.timestamp}
+│➤ Viewers : ${anu.views}
+│➤ Uploaded : ${anu.ago}
+│➤ Author : ${anu.author.name}
+│➤ Url : ${anu.url}
+└─────────❖`,
+footer: `${global.footer2}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
