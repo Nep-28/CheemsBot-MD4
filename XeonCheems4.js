@@ -7149,38 +7149,6 @@ reply("Link error!")
 }
 }
 break
-case 'getytv': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!args[0]) return reply(mess.linkm)
-textdl4 = `༺═─⃟─⃟─⃟𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁─⃟─⃟─⃟═༻\n┌───────────\n│ 𝗣𝗹𝗲𝗮𝘀𝗲 𝘀𝗲𝗹𝗲𝗰𝘁 𝘁𝗵𝗲 𝗾𝘂𝗮𝗹𝗶𝘁𝘆\n│\n│ This future is still testing\n│ If 480p and 720p don't work, use 320p\n└───────────`
-let buttons = [
-{buttonId: `ytvd ${res.link} 360p`, buttonText: {displayText: '360P'}, type: 1},
-{buttonId: `ytvd ${res.link} 480p`, buttonText: {displayText: '480P'}, type: 1},
-{buttonId: `ytvd ${res.link} 720p`, buttonText: {displayText: '720P'}, type: 1}
-]
-let buttonMessage = {
-image: {url:res.thumb},
-caption: textdl4,
-footer: `${botname}`,
-buttons: buttons,
-headerType: 4,
-contextInfo:{externalAdReply:{
-title: res.title,
-body: `${global.ownername}`,
-thumbnail: {url:res.thumb},
-mediaType:3,
-mediaUrl: args[0],
-sourceUrl: args[0]
-}}
-}
-XeonBotInc.sendMessage(from, buttonMessage, {quoted:m})
-}).catch(_ => _)
-} catch {
-reply("Link error!")
-}
-}
-break 
 case 'ytmpr': case 'getvi': case 'ytvido': {
                 let { ytv } = require('./lib/y2mate')
                 if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag 720p`)
@@ -9489,8 +9457,8 @@ case 'tqtt':
 	if (isBanChat) return reply(mess.banChat)
 reply(`Thanks to
 LORD BUDDHA
-Xeon (Me)
-My family
+Xeon
+His family
 And all friends who helped assemble this sexy script !!!`)
 break
             default:
