@@ -38,7 +38,7 @@ global.APIKeys = {
 //aumto functioner
 global.autoTyping = false //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = false //auto reading in gc (true to on, false to off)
+global.autoReadGc = ture //auto reading in gc (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
@@ -71,6 +71,7 @@ global.botscript = 'Nothing 🤣' //script link
 global.reactmoji = "👋" //ur menu react emoji
 global.reactmoji2 = "✅" //ur alive react emoji
 global.themeemoji = "🔖" //ur theme emoji
+global.ownernummg = "╔══❖•ＣＯＮＴＡＣＴ  ＯＷＮＥＲ•❖══╗\n\n𝘖𝘸𝘯𝘦𝘳 𝘕𝘢𝘮𝘦 : {$global.ownername}\n\n𝘖𝘸𝘯𝘦𝘳 𝘯𝘶𝘮𝘣𝘦𝘳 : https://wa.me/94702476028\n\nDon't wait for a reply as soon as you send a message to this account's inbox.\n\n╚═══{$global.ownername}═══╝" //u can change it
 global.note = "ℕ𝕠 𝕟𝕠𝕥𝕖" // ur note
 global.packname = "Nep Botz Stickers\n\n\n\n\n\n\n\n\n\n\nnepbotz " //ur sticker watermark packname
 global.author = "🌹⃝⃘̉̉̉̉̉̉🧚ℕ𝕖𝕡𝕥𝕦𝕟𝕖❤️⃝➤⃟̱̱̱̱̄̄̄̄" //ur sticker watermark author
