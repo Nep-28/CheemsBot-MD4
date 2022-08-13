@@ -8706,231 +8706,242 @@ case 'ownermenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Owner Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」	
-╠ ${prefix}private 
-╠ ${prefix}public
-╠ ${prefix}antitag
-╠ ${prefix}ban [add/del]
-╠ ${prefix}banchat [on/off]
-╠ ${prefix}join [link]
-╠ ${prefix}leavegc
-╠ ${prefix}setbio
-╠ ${prefix}block [user]
-╠ ${prefix}unblock [user]
-╠ ${prefix}bcgroup [text]
-╠ ${prefix}bcall [text]
-╠ ${prefix}bcimage [image]
-╠ ${prefix}bcvideo [video]
-╠ ${prefix}bcaudio [audio]
-╠ ${prefix}bcloc [text]
-╠ ${prefix}setppbot [image]
-╠ ${prefix}setexif
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
+await XeonBotInc.send5ButImg(from, `╭══〘 𝕆𝕎ℕ𝔼ℝ 𝕄𝔼ℕ𝕌 〙══⊷❍
+┃    ╭──────────────
+┃➤│ ${prefix}private 
+┃➤│ ${prefix}public
+┃➤│ ${prefix}antitag
+┃➤│ ${prefix}ban [add/del]
+┃➤│ ${prefix}banchat [on/off]
+┃➤│ ${prefix}join [link]
+┃➤│ ${prefix}leavegc
+┃➤│ ${prefix}setbio
+┃➤│ ${prefix}block [user]
+┃➤│ ${prefix}unblock [user]
+┃➤│ ${prefix}bcgroup [text]
+┃➤│ ${prefix}bcall [text]
+┃➤│ ${prefix}bcimage [image]
+┃➤│ ${prefix}bcvideo [video]
+┃➤│ ${prefix}bcaudio [audio]
+┃➤│ ${prefix}bcloc [text]
+┃➤│ ${prefix}setppbot [image]
+┃➤│ ${prefix}setexif
+┃    ╰───────────────
+╰═════════════════════❖•` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'groupmenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Group Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 GROUP 」	
-╠${prefix}settings 
-╠${prefix}invite
-╠${prefix}ephemeral [option]
-╠${prefix}setgcpp [image]
-╠${prefix}setname [text]
-╠${prefix}setdesc [text]
-╠${prefix}group
-╠${prefix}botgroups
-╠${prefix}resetgrouplink
-╠${prefix}editinfo [option]
-╠${prefix}add [user]
-╠${prefix}kick [reply/tag]
-╠${prefix}hidetag [text]
-╠${prefix}tagall [text]
-╠${prefix}autosticker [on/off]
-╠${prefix}autostickerpc [on/off]
-╠${prefix}leveling [on/off]
-╠${prefix}antilinkgc [on/off]
-╠${prefix}antilinktg [on/off]
-╠${prefix}antilinktt [on/off]
-╠${prefix}antilinkytch [on/off]
-╠${prefix}antilinkytvid [on/off]
-╠${prefix}antilinkig [on/off]
-╠${prefix}antilinkfb [on/off]
-╠${prefix}antilinktwit [on/off]
-╠${prefix}antilinkall [on/off]
-╠${prefix}antivirus [on/off]
-╠${prefix}antitoxic [on/off]
-╠${prefix}antiwame [on/off]
-╠${prefix}nsfw [on/off]
-╠${prefix}promote [reply/tag]
-╠${prefix}demote [reply/tag]
-╠${prefix}react [reply emoji]
-╠${prefix}getpp [reply user]
-╠${prefix}vote
-╠${prefix}devote
-╠${prefix}upvote
-╠${prefix}checkvote
-╠${prefix}delvote
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
+await XeonBotInc.send5ButImg(from, `╭══〘 𝔾ℝ𝕆𝕌ℙ 𝕄𝔼ℕ𝕌 〙══⊷❍
+┃    ╭──────────────
+┃➤│ ${prefix}settings 
+┃➤│ ${prefix}invite
+┃➤│ ${prefix}ephemeral [option]
+┃➤│ ${prefix}setgcpp [image]
+┃➤│ ${prefix}setname [text]
+┃➤│ ${prefix}setdesc [text]
+┃➤│ ${prefix}group
+┃➤│ ${prefix}botgroups
+┃➤│ ${prefix}resetgrouplink
+┃➤│ ${prefix}editinfo [option]
+┃➤│ ${prefix}add [user]
+┃➤│ ${prefix}kick [reply/tag]
+┃➤│ ${prefix}hidetag [text]
+┃➤│ ${prefix}tagall [text]
+┃➤│ ${prefix}autosticker [on/off]
+┃➤│ ${prefix}autostickerpc [on/off]
+┃➤│ ${prefix}leveling [on/off]
+┃➤│ ${prefix}antilinkgc [on/off]
+┃➤│ ${prefix}antilinktg [on/off]
+┃➤│ ${prefix}antilinktt [on/off]
+┃➤│ ${prefix}antilinkytch [on/off]
+┃➤│ ${prefix}antilinkytvid [on/off]
+┃➤│ ${prefix}antilinkig [on/off]
+┃➤│ ${prefix}antilinkfb [on/off]
+┃➤│ ${prefix}antilinktwit [on/off]
+┃➤│ ${prefix}antilinkall [on/off]
+┃➤│ ${prefix}antivirus [on/off]
+┃➤│ ${prefix}antitoxic [on/off]
+┃➤│ ${prefix}antiwame [on/off]
+┃➤│ ${prefix}nsfw [on/off]
+┃➤│ ${prefix}promote [reply/tag]
+┃➤│ ${prefix}demote [reply/tag]
+┃➤│ ${prefix}react [reply emoji]
+┃➤│ ${prefix}getpp [reply user]
+┃➤│ ${prefix}vote
+┃➤│ ${prefix}devote
+┃➤│ ${prefix}upvote
+┃➤│ ${prefix}checkvote
+┃➤│ ${prefix}delvote
+┃    ╰───────────────
+
+╰═════════════════════❖•` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'rpgmenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Rpg Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 RPG 」	
-╠${prefix}hunt
-╠${prefix}mine
-╠${prefix}fish
-╠${prefix}heal
-╠${prefix}blood
-╠${prefix}stab
-╠${prefix}buy
-╠${prefix}sell
-╠${prefix}profile
-╠${prefix}inventory
-╠${prefix}leaderboard
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
+await XeonBotInc.send5ButImg(from, `╭══〘 ℝℙ𝔾 𝕄𝔼ℕ𝕌 〙══⊷❍
+┃    ╭──────────────
+┃➤│ ${prefix}hunt
+┃➤│ ${prefix}mine
+┃➤│ ${prefix}fish
+┃➤│ ${prefix}heal
+┃➤│ ${prefix}blood
+┃➤│ ${prefix}stab
+┃➤│ ${prefix}buy
+┃➤│ ${prefix}sell
+┃➤│ ${prefix}profile
+┃➤│ ${prefix}inventory
+┃➤│ ${prefix}leaderboard
+┃    ╰───────────────
+╰═════════════════════❖•` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break 
 case 'makermenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Maker Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 MAKER 」	
-╠${prefix}candy
-╠${prefix}8bit
-╠${prefix}horror
-╠${prefix}hoorror
-╠${prefix}retro
-╠${prefix}blackpinkneon
-╠${prefix}deepsea
-╠${prefix}scifi
-╠${prefix}fiction
-╠${prefix}berry
-╠${prefix}fruitjuice
-╠${prefix}biscuit
-╠${prefix}wood
-╠${prefix}chocolate
-╠${prefix}matrix
-╠${prefix}blood
-╠${prefix}halloween
-╠${prefix}wicker
-╠${prefix}darkgold
-╠${prefix}firework
-╠${prefix}skeleton
-╠${prefix}sand
-╠${prefix}glue
-╠${prefix}leaves
-╠${prefix}magma
-╠${prefix}lava
-╠${prefix}rock
-╠${prefix}bloodglas
-╠${prefix}underwater
-╠${prefix}textmaker
-╠${prefix}honey
-╠${prefix}ice
-╠${prefix}watercolor
-╠${prefix}multicolor
-╠${prefix}snow
-╠${prefix}harrypot
-╠${prefix}harrypotter
-╠${prefix}brokenglass
-╠${prefix}waterpipe
-╠${prefix}spooky
-╠${prefix}circuit
-╠${prefix}metallic
-╠${prefix}demon
-╠${prefix}sparklechristmas
-╠${prefix}christmas
-╠${prefix}3dchristmas
-╠${prefix}3dbox
-╠${prefix}waterdrop
-╠${prefix}lion2
-╠${prefix}papercut
-╠${prefix}transformer
-╠${prefix}neondevil
-╠${prefix}3davengers
-╠${prefix}3dstone
-╠${prefix}3dstone2
-╠${prefix}summertime
-╠${prefix}thunder
-╠${prefix}window
-╠${prefix}graffiti
-╠${prefix}graffitibike
-╠${prefix}pornhub
-╠${prefix}glitch
-╠${prefix}blackpink
-╠${prefix}glitch2
-╠${prefix}glitch3
-╠${prefix}3dspace
-╠${prefix}lion
-╠${prefix}3dneon
-╠${prefix}greenneon
-╠${prefix}bokeh
-╠${prefix}holographic
-╠${prefix}bear
-╠${prefix}wolf
-╠${prefix}joker
-╠${prefix}dropwater
-╠${prefix}dropwater2
-╠${prefix}thewall
-╠${prefix}neonlight
-╠${prefix}natural
-╠${prefix}carbon
-╠${prefix}pencil
-╠${prefix}blackpink2
-╠${prefix}neon
-╠${prefix}neonlight2
-╠${prefix}toxic
-╠${prefix}strawberry
-╠${prefix}discovery
-╠${prefix}1917
-╠ ${prefix}sci_fi
-╠ ${prefix}ancient
-╠ ${prefix}fabric
-╠ ${prefix}hoorror
-╠ ${prefix}whitebear
-╠ ${prefix}juice
-╠ ${prefix}batman
-╠ ${prefix}multicolor
-╠ ${prefix}collwall
-╠ ${prefix}wonderful
-╠ ${prefix}cool
-╠ ${prefix}sketch
-╠ ${prefix}marvel
-╠ ${prefix}foggy
-╠ ${prefix}writing
-╠ ${prefix}halloweenfire
-╠ ${prefix}halloween
-╠ ${prefix}watercolor
-╠ ${prefix}classic
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
+await XeonBotInc.send5ButImg(from, `╭══〘 𝕃𝕆𝔾𝕆 𝕄𝔸𝕂𝔼ℝ 𝕄𝔼ℕ𝕌 〙══⊷❍
+┃    ╭──────────────
+┃➤│ ${prefix}candy
+┃➤│ ${prefix}8bit
+┃➤│ ${prefix}horror
+┃➤│ ${prefix}hoorror
+┃➤│ ${prefix}retro
+┃➤│ ${prefix}blackpinkneon
+┃➤│ ${prefix}deepsea
+┃➤│ ${prefix}scifi
+┃➤│ ${prefix}fiction
+┃➤│ ${prefix}berry
+┃➤│ ${prefix}fruitjuice
+┃➤│ ${prefix}biscuit
+┃➤│ ${prefix}wood
+┃➤│ ${prefix}chocolate
+┃➤│ ${prefix}matrix
+┃➤│ ${prefix}blood
+┃➤│ ${prefix}halloween
+┃➤│ ${prefix}wicker
+┃➤│ ${prefix}darkgold
+┃➤│ ${prefix}firework
+┃➤│ ${prefix}skeleton
+┃➤│ ${prefix}sand
+┃➤│ ${prefix}glue
+┃➤│ ${prefix}leaves
+┃➤│ ${prefix}magma
+┃➤│ ${prefix}lava
+┃➤│ ${prefix}rock
+┃➤│ ${prefix}bloodglas
+┃➤│ ${prefix}underwater
+┃➤│ ${prefix}textmaker
+┃➤│ ${prefix}honey
+┃➤│ ${prefix}ice
+┃➤│ ${prefix}watercolor
+┃➤│ ${prefix}multicolor
+┃➤│ ${prefix}snow
+┃➤│ ${prefix}harrypot
+┃➤│ ${prefix}harrypotter
+┃➤│ ${prefix}brokenglass
+┃➤│ ${prefix}waterpipe
+┃➤│ ${prefix}spooky
+┃➤│ ${prefix}circuit
+┃➤│ ${prefix}metallic
+┃➤│ ${prefix}demon
+┃➤│ ${prefix}sparklechristmas
+┃➤│ ${prefix}christmas
+┃➤│ ${prefix}3dchristmas
+┃➤│ ${prefix}3dbox
+┃➤│ ${prefix}waterdrop
+┃➤│ ${prefix}lion2
+┃➤│ ${prefix}papercut
+┃➤│ ${prefix}transformer
+┃➤│ ${prefix}neondevil
+┃➤│ ${prefix}3davengers
+┃➤│ ${prefix}3dstone
+┃➤│ ${prefix}3dstone2
+┃➤│ ${prefix}summertime
+┃➤│ ${prefix}thunder
+┃➤│ ${prefix}window
+┃➤│ ${prefix}graffiti
+┃➤│ ${prefix}graffitibike
+┃➤│ ${prefix}blackyellow
+┃➤│ ${prefix}glitch
+┃➤│ ${prefix}blackpink
+┃➤│ ${prefix}glitch2
+┃➤│ ${prefix}glitch3
+┃➤│ ${prefix}3dspace
+┃➤│ ${prefix}lion
+┃➤│ ${prefix}3dneon
+┃➤│ ${prefix}greenneon
+┃➤│ ${prefix}bokeh
+┃➤│ ${prefix}holographic
+┃➤│ ${prefix}bear
+┃➤│ ${prefix}wolf
+┃➤│ ${prefix}joker
+┃➤│ ${prefix}dropwater
+┃➤│ ${prefix}dropwater2
+┃➤│ ${prefix}thewall
+┃➤│ ${prefix}neonlight
+┃➤│ ${prefix}natural
+┃➤│ ${prefix}carbon
+┃➤│ ${prefix}pencil
+┃➤│ ${prefix}blackpink2
+┃➤│ ${prefix}neon
+┃➤│ ${prefix}neonlight2
+┃➤│ ${prefix}toxic
+┃➤│ ${prefix}strawberry
+┃➤│ ${prefix}discovery
+┃➤│ ${prefix}1917
+┃➤│ ${prefix}sci_fi
+┃➤│ ${prefix}ancient
+┃➤│ ${prefix}fabric
+┃➤│ ${prefix}hoorror
+┃➤│ ${prefix}whitebear
+┃➤│ ${prefix}juice
+┃➤│ ${prefix}batman
+┃➤│ ${prefix}multicolor
+┃➤│ ${prefix}collwall
+┃➤│ ${prefix}wonderful
+┃➤│ ${prefix}cool
+┃➤│ ${prefix}sketch
+┃➤│ ${prefix}marvel
+┃➤│ ${prefix}foggy
+┃➤│ ${prefix}writing
+┃➤│ ${prefix}halloweenfire
+┃➤│ ${prefix}halloween 
+┃➤│ ${prefix}watercolor
+┃➤│ ${prefix}classic
+╰───────────────
+╰═════════════════════❖•` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'downloadmenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Download Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 DOWNLOAD 」	
-╠${prefix}instagram [url]
-╠${prefix}igtv [url]
-╠${prefix}igstory [username]
-╠${prefix}facebook [url]
-╠${prefix}fbmp3 [url]
-╠${prefix}twitter [url]
-╠${prefix}twittermp3 [url]
-╠${prefix}tiktok [url]
-╠${prefix}tiktokaudio [url]
-╠${prefix}tiktoknowm [url]
-╠${prefix}instagram [url]
-╠${prefix}igstory [url]
-╠${prefix}mediafire [url]
-╠${prefix}ytmp3 [url|quality]
-╠${prefix}ytmp4 [url|quality]
-╠${prefix}getmusic [yt link]
-╠${prefix}getvideo [yt link]
-╠${prefix}gitclone [repo link]
-╠${prefix}soundcloud [url]
-╠${prefix}zippyshare [url]
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
+await XeonBotInc.send5ButImg(from, `╭══〘 𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻 𝕄𝔼ℕ𝕌 〙══⊷❍
+┃    ╭──────────────
+┃➤│ ${prefix}instagram [url]
+┃➤│ ${prefix}igtv [url]
+┃➤│ ${prefix}igstory [username]
+┃➤│ ${prefix}facebook [url]
+┃➤│ ${prefix}fbmp3 [url]
+┃➤│ ${prefix}twitter [url]
+┃➤│ ${prefix}twittermp3 [url]
+┃➤│ ${prefix}tiktok [url]
+┃➤│ ${prefix}tiktokaudio [url]
+┃➤│ ${prefix}tiktoknowm [url]
+┃➤│ ${prefix}instagram [url]
+┃➤│ ${prefix}igstory [url]
+┃➤│ ${prefix}mediafire [url]
+┃➤│ ${prefix}ytmp3 [url|quality]
+┃➤│ ${prefix}ytmp4 [url|quality]
+┃➤│ ${prefix}getmusic [yt link]
+┃➤│ ${prefix}getvideo [yt link]
+┃➤│ ${prefix}gitclone [repo link]
+┃➤│  ${prefix}soundcloud [url]
+┃➤│  ${prefix}zippyshare [url]
+╰───────────────
+╰═════════════════════❖•` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Group 🎀","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'searchmenu':
 	   if (isBan) return reply(mess.ban)
