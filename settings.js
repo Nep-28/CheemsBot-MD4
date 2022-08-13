@@ -38,7 +38,7 @@ global.APIKeys = {
 //aumto functioner
 global.autoTyping = false //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = ture //auto reading in gc (true to on, false to off)
+global.autoReadGc = true //auto reading in gc (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
@@ -79,7 +79,7 @@ global.author = "🌹⃝⃘̉̉̉̉̉̉🧚ℕ𝕖𝕡𝕥𝕦𝕟𝕖❤️⃝�
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/new.jpg") //ur thumb pic
 global.log0 = fs.readFileSync("./XeonMedia/theme/new.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/new.jpg") //ur error pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/ea4or.jpg") //ur error pic
 global.thumb = fs.readFileSync("./XeonMedia/theme/new.jpg") //ur thumb pic
 
 //damtabase
