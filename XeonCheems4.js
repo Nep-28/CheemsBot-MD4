@@ -7938,7 +7938,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji2}`, key: m.key
             { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
             { quickReplyButton: { displayText: `Owner 👑`, id: 'owner'} }
         	]
-        	XeonBotInc.sendMessage(m.chat, { caption: alivems, image: fs.readFileSync('./XeonMedia/theme/new.jpg'), templateButtons: buttonmenu, footer: `${global.footer2}`, mentionedJid: [m.sender] })
+        	XeonBotInc.sendMessage(m.chat, { caption: alivems, image: fs.readFileSync('./XeonMedia/theme/aliv.jpg'), templateButtons: buttonmenu, footer: `${global.footer2}`, mentionedJid: [m.sender] })
                         }
                      }
             break
